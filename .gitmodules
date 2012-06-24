@@ -22,3 +22,6 @@
 [submodule "bundle/csscolor"]
 	path = bundle/csscolor
 	url = git://github.com/skammer/vim-css-color.git
+[submodule "bundle/closetag"]
+	path = bundle/closetag
+	url = git://github.com/docunext/closetag.vim.git
