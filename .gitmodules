@@ -31,3 +31,9 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "bundle/jellybeans"]
+	path = bundle/jellybeans
+	url = git://github.com/nanotech/jellybeans.vim.git
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = git://github.com/tomasr/molokai.git

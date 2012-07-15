@@ -14,6 +14,8 @@
 ## List of Colour Schemes
 
 1. Solarized
+2. jellybeans
+3. molokai
 
 ## Installation
 
