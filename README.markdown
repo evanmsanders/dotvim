@@ -34,7 +34,7 @@
 You'll want the read-only version of the repo, so replace step 2 above with:
 
 ```
-git clone git@github.com/evanmsanders/dotvim.git ~/.vim
+git clone git://github.com/evanmsanders/dotvim.git ~/.vim
 ```
 
 ## Disclaimer
