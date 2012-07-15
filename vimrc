@@ -62,7 +62,7 @@ set lines=40 columns=120        " Set the default window size.
 if has('gui_running')           " Set the options for GUI mode only.
     set background=light
     colorscheme solarized 
-    set guifont=Droid\ Sans\ Mono\ 10
+    set guifont=DejaVu\ Sans\ Mono\ 10
 endif
 set ruler                       " Always show the ruler.
 set showcmd                     " Show the command being typed.
