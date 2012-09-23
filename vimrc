@@ -60,9 +60,7 @@ let g:SuperTabContextDefaultCompletionType="<c-x><c-o>"
 
 set lines=40 columns=120        " Set the default window size.
 if has('gui_running')           " Set the options for GUI mode only.
-    colorscheme solarized
-    set background=light
-    let g:molokai_original=0
+    colorscheme molokai
     set guifont=Inconsolata\ 12
 endif
 set ruler                       " Always show the ruler.
@@ -84,3 +82,12 @@ set hlsearch                    " Highlight search results.
 set incsearch                   " Highlight search results as you type.
 set ignorecase                  " No case sensitivity by default.
 set smartcase                   " Work out case sensitivity automatically.
+
+" =============================================================================
+" Mappings etc
+" =============================================================================
+
+let mapleader=","
+let g:mapleader=","
+
+map <Leader>n :NERDTreeToggle<cr>
