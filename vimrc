@@ -60,7 +60,7 @@ let g:SuperTabContextDefaultCompletionType="<c-x><c-o>"
 
 set lines=40 columns=120        " Set the default window size.
 if has('gui_running')           " Set the options for GUI mode only.
-    colorscheme molokai
+    colorscheme jellybeans
     set guifont=Source\ Code\ Pro\ Regular\ 11
 endif
 set ruler                       " Always show the ruler.
