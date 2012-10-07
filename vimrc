@@ -28,6 +28,7 @@ set nocompatible                " Remove compatibility with vi.
 set autoread                    " Auto reload when a file is changed.
 set nobackup                    " No backup files.
 set noswapfile                  " No swap files.
+set encoding=utf-8
 
 " =============================================================================
 " File types and syntax.
