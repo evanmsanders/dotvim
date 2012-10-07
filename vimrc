@@ -91,3 +91,4 @@ let mapleader=","
 let g:mapleader=","
 
 map <Leader>n :NERDTreeToggle<cr>
+map <Leader><Space> :noh<cr>    " Clear search highlighting.
