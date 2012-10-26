@@ -37,3 +37,6 @@
 [submodule "bundle/molokai"]
 	path = bundle/molokai
 	url = git://github.com/tomasr/molokai.git
+[submodule "bundle/railscasts"]
+	path = bundle/railscasts
+	url = git://github.com/jpo/vim-railscasts-theme.git

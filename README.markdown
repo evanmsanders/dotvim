@@ -10,12 +10,14 @@
 6. TagBar
 7. Surround
 8. CSSColor
+9. Tabular
 
 ## List of Colour Schemes
 
 1. Solarized
 2. jellybeans
 3. molokai
+4. railscasts
 
 ## Installation
 
