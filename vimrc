@@ -59,10 +59,10 @@ let g:SuperTabContextDefaultCompletionType="<c-x><c-o>"
 " Display options
 " =============================================================================
 
-set lines=40 columns=120        " Set the default window size.
 if has('gui_running')           " Set the options for GUI mode only.
     colorscheme railscasts 
     set guifont=Source\ Code\ Pro\ Regular\ 11
+    set lines=40 columns=120    " Set the default window size.
 endif
 set ruler                       " Always show the ruler.
 set showcmd                     " Show the command being typed.
@@ -93,4 +93,5 @@ let mapleader=","
 let g:mapleader=","
 
 map <Leader>n :NERDTreeToggle<cr>
+map <Leader>t :TagbarToggle<cr>
 map <Leader><Space> :noh<cr>    " Clear search highlighting.
