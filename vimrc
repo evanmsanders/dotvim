@@ -60,7 +60,8 @@ let g:SuperTabContextDefaultCompletionType="<c-x><c-o>"
 " =============================================================================
 
 if has('gui_running')           " Set the options for GUI mode only.
-    colorscheme railscasts 
+    colorscheme solarized
+    set background=light
     set guifont=Source\ Code\ Pro\ Regular\ 11
     set lines=40 columns=120    " Set the default window size.
 endif
