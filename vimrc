@@ -63,7 +63,7 @@ if has('gui_running')           " Set the options for GUI mode only.
     colorscheme solarized
     set background=light
     set guifont=Source\ Code\ Pro\ Regular\ 11
-    set lines=30 columns=100    " Set the default window size.
+    set lines=30 columns=85    " Set the default window size.
 endif
 set ruler                       " Always show the ruler.
 set showcmd                     " Show the command being typed.
