@@ -75,6 +75,8 @@ set showmatch                   " Highlight matched brackets.
 set matchtime=2                 " Duration of bracket highlighting.
 set noerrorbells                " No audio bells.
 set colorcolumn=80              " Highlight column 80.
+set splitbelow                  " Open horizontal splits underneath.
+set splitright                  " Open vertical splits to the right.
 
 " =============================================================================
 " Search options
