@@ -7,7 +7,6 @@
 3. delimitMate
 4. NERDTree
 5. Mini Buf Explorer
-6. TagBar
 7. Surround
 8. CSSColor
 9. Tabular
