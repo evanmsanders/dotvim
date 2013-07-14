@@ -7,9 +7,9 @@
 3. delimitMate
 4. NERDTree
 5. Mini Buf Explorer
-7. Surround
 8. CSSColor
 9. Tabular
+10. Vim LESS
 
 ## List of Colour Schemes
 

@@ -13,9 +13,6 @@
 [submodule "bundle/minibufexpl"]
 	path = bundle/minibufexpl
 	url = git://github.com/fholgado/minibufexpl.vim.git
-[submodule "bundle/surround"]
-	path = bundle/surround
-	url = git://github.com/tpope/vim-surround.git
 [submodule "bundle/csscolor"]
 	path = bundle/csscolor
 	url = git://github.com/skammer/vim-css-color.git
