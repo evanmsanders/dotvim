@@ -10,6 +10,7 @@
 8. CSSColor
 9. Tabular
 10. Vim LESS
+11. Command-T
 
 ## List of Colour Schemes
 
@@ -26,6 +27,14 @@
 4. cd ~.vim
 5. git submodule init
 6. git submodule update
+
+Don't forget to then compile the Command-T plugin stuff:
+
+```
+cd ~/.vim/bundle/command-t/ruby/command-t
+ruby extconf.rb
+make
+```
 
 ## Upgrading Plugin Bundles
 
