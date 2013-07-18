@@ -6,6 +6,7 @@
 
 " =============================================================================
 call pathogen#infect()          " Fire up Pathogen
+call pathogen#helptags()        " Call the help tags manually for Command-T
 
 " =============================================================================
 " General Stuff
