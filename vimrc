@@ -5,19 +5,6 @@
 " =============================================================================
 
 " =============================================================================
-" List of necessary plugins
-"
-" 1. Solarized
-" 2. SuperTab
-" 3. closeTag
-" 4. delimitMate
-" 5. NERDTree
-" 6. Mini Buf Explorer
-" 7. TagBar
-" 8. Surround
-" 9. CSSColor
-
-" =============================================================================
 call pathogen#infect()          " Fire up Pathogen
 
 " =============================================================================
@@ -39,7 +26,8 @@ set smartindent                 " Use smart indenting.
 set copyindent                  " Copy previous indent.
 set smarttab                    " Use smart tabs.
 set tabstop=4                   " Use four spaces for indent.
-set shiftwidth=4        
+set shiftwidth=4
+set shiftround                  " Use a multiple of shiftwidth when indenting.
 set expandtab                   " Use spaces instead of tabs.
 set backspace=indent,eol,start  " Set the backspace behaviour.
 filetype plugin indent on       " Highlight syntax based on file type.
@@ -73,6 +61,7 @@ set lazyredraw                  " Don't update display during macros.
 set mouse=a                     " Use the mouse everywhere.
 set showmatch                   " Highlight matched brackets.
 set matchtime=2                 " Duration of bracket highlighting.
+set visualbell                  " Use visual bells.
 set noerrorbells                " No audio bells.
 set colorcolumn=80              " Highlight column 80.
 set splitbelow                  " Open horizontal splits underneath.
@@ -93,6 +82,9 @@ set smartcase                   " Work out case sensitivity automatically.
 
 let mapleader=","
 let g:mapleader=","
+
+nnoremap j gj
+nnoremap k gk                   " Make up/down behave properly on wrapped lines.
 
 map <Leader>n :NERDTreeToggle<cr>
 map <Leader><Space> :noh<cr>    " Clear search highlighting.
