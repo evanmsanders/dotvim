@@ -84,8 +84,12 @@ set smartcase                   " Work out case sensitivity automatically.
 let mapleader=","
 let g:mapleader=","
 
-nnoremap j gj
-nnoremap k gk                   " Make up/down behave properly on wrapped lines.
+nnoremap ; :                    " Make ; behave like :
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-l>l           " Easier movement in split windows.
 
 map <Leader>n :NERDTreeToggle<cr>
 map <Leader><Space> :noh<cr>    " Clear search highlighting.
