@@ -84,8 +84,6 @@ set smartcase                   " Work out case sensitivity automatically.
 let mapleader=","
 let g:mapleader=","
 
-nnoremap ; :                    " Make ; behave like :
-
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
